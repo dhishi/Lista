@@ -22,6 +22,7 @@ namespace WebApplication3
         {
             List<RestauranteENT> ListoRestaurantes = new RestauranteBLL().NGListaRestaurantes();
             GdvPedidos.DataSource = ListoRestaurantes;
+
             GdvPedidos.DataBind();
         }
     }
