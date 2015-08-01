@@ -11,6 +11,8 @@
     <div>
     
         <asp:Button ID="BtnLista" runat="server" Text="Button" OnClick="BtnLista_Click" />
+        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+        </asp:RadioButtonList>
         <br />
 
         <asp:DropDownList ID="DdlTipoRestaurante" runat="server">
